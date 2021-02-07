@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e56228-2341-4f56-87a0-14ebdc8c589a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612627792204</updated>
       <workItem from="1612627794720" duration="701000" />
-      <workItem from="1612628575661" duration="6354000" />
+      <workItem from="1612628575661" duration="7708000" />
     </task>
     <servers />
   </component>
