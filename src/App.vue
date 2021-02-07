@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="link-arrow">Learn more</a>
+
 </template>
 
 <script setup>
