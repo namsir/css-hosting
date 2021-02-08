@@ -7,8 +7,11 @@
     --color-accent: #ff3400;
     --color-headings: #1b0760;
     --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
 }
-*, *::after, *::before{
+
+*, *::after, *::before {
     box-sizing: border-box;
 }
 
@@ -105,23 +108,23 @@ a {
     font-size: 1.6rem;
 }
 
-@media screen and (min-width: 1024px){
-    .badge{
+@media screen and (min-width: 1024px) {
+    .badge {
         font-size: 1.5rem;
     }
-    .badge--small{
+
+    .badge--small {
         font-size: 1.2rem;
     }
 }
 
 
 /* Lists */
-.list{
+.list {
     list-style: none;
     padding-left: 0;
     color: var(--color-headings);
 }
-
 
 
 .list--inline .list__item {
@@ -129,18 +132,18 @@ a {
     margin-right: 2rem;
 }
 
-.list--tick{
+.list--tick {
     list-style-image: url("../images/tick.svg");
     padding-left: 3rem;
 }
 
-.list--tick .list__item{
+.list--tick .list__item {
     padding-left: 0.5rem;
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 1024px){
-    .list--tick .list__item{
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
         padding-left: 0;
     }
 }
@@ -151,7 +154,7 @@ a {
     height: 40px;
 }
 
-.icon--primary{
+.icon--primary {
     fill: var(--color-primary);
 }
 
@@ -168,7 +171,7 @@ a {
 
 
 /* Buttons */
-.btn{
+.btn {
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -181,20 +184,21 @@ a {
     white-space: nowrap;
 }
 
-.btn--primary{
+.btn--primary {
     background: var(--color-primary);
     color: #fff;
 }
-.btn--primary:hover{
+
+.btn--primary:hover {
     background: #3a8ffd;
 }
 
-.btn--secondary{
+.btn--secondary {
     background: var(--color-secondary);
     color: #fff;
 }
 
-.btn--secondary:hover{
+.btn--secondary:hover {
     background: #00c8eb;
 }
 
@@ -203,7 +207,7 @@ a {
     color: #fff;
 }
 
-.btn--accent:hover{
+.btn--accent:hover {
     background: #ec3000;
 }
 
@@ -213,21 +217,60 @@ a {
     border: 2px solid var(--color-headings);
 }
 
-.btn--outline:hover{
+.btn--outline:hover {
     background: var(--color-headings);
     color: #fff;
 }
 
-.btn--block{
+.btn--block {
     width: 100%;
     display: inline-block;
 }
 
-@media screen and (min-width: 1024px){
-    .btn{
+@media screen and (min-width: 1024px) {
+    .btn {
         font-size: 1.5rem;
     }
 }
+
+
+/* Inputs */
+
+.input {
+    padding: 1.5rem 3.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    outline: none;
+    color: var(--color-headings);
+    font-size: 2rem;
+}
+
+::placeholder {
+    color: #cdcbd7;
+}
+
+.input-group {
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    display: flex;
+}
+
+.input-group .input{
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn{
+    margin: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.5rem;
+    }
+}
+
 
 @media screen and (min-width: 1024px) {
     body {
