@@ -96,6 +96,7 @@ a {
         font-size: 1.5rem;
     }
 }
+
 /* Badges */
 
 .badge {
@@ -130,6 +131,7 @@ a {
         font-size: 1.2rem;
     }
 }
+
 /* Lists */
 .list {
     list-style: none;
@@ -157,6 +159,7 @@ a {
         padding-left: 0;
     }
 }
+
 /* Icons */
 .icon {
     width: 40px;
@@ -176,6 +179,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 /* Buttons */
 .btn {
     border-radius: 40px;
@@ -274,6 +278,7 @@ a {
         font-size: 1.5rem;
     }
 }
+
 /* Cards */
 .card {
     border-radius: 7px;
@@ -359,4 +364,22 @@ a {
     .plan__description {
         font-size: 1.7rem;
     }
+}
+
+
+/* Medias */
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body{
+    margin: 0 2rem;
+}
+
+.media__image{
+    margin-top: 1rem;
 }
