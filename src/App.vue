@@ -1,6 +1,8 @@
 <template>
 
+<div class="callout callout--primary">
 
+</div>
 
 </template>
 
